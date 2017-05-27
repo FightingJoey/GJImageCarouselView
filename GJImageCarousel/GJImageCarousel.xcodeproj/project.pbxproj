@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AC724C01ED9D23B00EA08DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC724BF1ED9D23B00EA08DF /* AppDelegate.swift */; };
+		0AC724C71ED9D23B00EA08DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AC724C61ED9D23B00EA08DF /* Assets.xcassets */; };
+		0AC724CA1ED9D23B00EA08DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AC724C81ED9D23B00EA08DF /* LaunchScreen.storyboard */; };
+		0AC724D51ED9D23B00EA08DF /* GJImageCarouselTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC724D41ED9D23B00EA08DF /* GJImageCarouselTests.swift */; };
+		0AC724E01ED9D23B00EA08DF /* GJImageCarouselUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC724DF1ED9D23B00EA08DF /* GJImageCarouselUITests.swift */; };
+		0AC724F81ED9D25A00EA08DF /* InvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC724F01ED9D25A00EA08DF /* InvestViewController.swift */; };
+		0AC724F91ED9D25A00EA08DF /* RecommandHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC724F11ED9D25A00EA08DF /* RecommandHeaderView.swift */; };
+		0AC724FB1ED9D25A00EA08DF /* RecommandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC724F31ED9D25A00EA08DF /* RecommandViewController.swift */; };
+		0AC724FD1ED9D25A00EA08DF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC724F51ED9D25A00EA08DF /* TabBarViewController.swift */; };
+		0AC725051ED9D26900EA08DF /* CALayer+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC724FF1ED9D26900EA08DF /* CALayer+Extension.swift */; };
+		0AC725061ED9D26900EA08DF /* String+DHFinacial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC725001ED9D26900EA08DF /* String+DHFinacial.swift */; };
+		0AC725071ED9D26900EA08DF /* UIColor+DHFinancial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC725011ED9D26900EA08DF /* UIColor+DHFinancial.swift */; };
+		0AC725081ED9D26900EA08DF /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC725021ED9D26900EA08DF /* UIColor+Extensions.swift */; };
+		0AC725091ED9D26900EA08DF /* UIDevice+deviceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC725031ED9D26900EA08DF /* UIDevice+deviceModel.swift */; };
+		0AC7250A1ED9D26900EA08DF /* UIFont+DHFinacial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC725041ED9D26900EA08DF /* UIFont+DHFinacial.swift */; };
+		0AC7250E1ED9D27000EA08DF /* GJAnnounceCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7250C1ED9D27000EA08DF /* GJAnnounceCarouselView.swift */; };
+		0AC7250F1ED9D27000EA08DF /* GJImageCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC7250D1ED9D27000EA08DF /* GJImageCarouselView.swift */; };
+		0AC725151ED9D2FF00EA08DF /* PrefixHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AC725141ED9D2FF00EA08DF /* PrefixHeader.swift */; };
+		0AC725181ED9D53600EA08DF /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0AC725171ED9D53600EA08DF /* iconfont.ttf */; };
+		1642713AE24434E9466A9642 /* Pods_GJImageCarousel.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A61E20601AC1FE07E7A8B0 /* Pods_GJImageCarousel.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AC724D11ED9D23B00EA08DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC724B41ED9D23B00EA08DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC724BB1ED9D23B00EA08DF;
+			remoteInfo = GJImageCarousel;
+		};
+		0AC724DC1ED9D23B00EA08DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AC724B41ED9D23B00EA08DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AC724BB1ED9D23B00EA08DF;
+			remoteInfo = GJImageCarousel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04394595E204B9974A42C0BA /* Pods-GJImageCarousel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJImageCarousel.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GJImageCarousel/Pods-GJImageCarousel.debug.xcconfig"; sourceTree = "<group>"; };
+		0AC724BC1ED9D23B00EA08DF /* GJImageCarousel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJImageCarousel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC724BF1ED9D23B00EA08DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AC724C61ED9D23B00EA08DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AC724C91ED9D23B00EA08DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AC724CB1ED9D23B00EA08DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC724D01ED9D23B00EA08DF /* GJImageCarouselTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJImageCarouselTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC724D41ED9D23B00EA08DF /* GJImageCarouselTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJImageCarouselTests.swift; sourceTree = "<group>"; };
+		0AC724D61ED9D23B00EA08DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC724DB1ED9D23B00EA08DF /* GJImageCarouselUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJImageCarouselUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AC724DF1ED9D23B00EA08DF /* GJImageCarouselUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GJImageCarouselUITests.swift; sourceTree = "<group>"; };
+		0AC724E11ED9D23B00EA08DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AC724F01ED9D25A00EA08DF /* InvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InvestViewController.swift; sourceTree = "<group>"; };
+		0AC724F11ED9D25A00EA08DF /* RecommandHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommandHeaderView.swift; sourceTree = "<group>"; };
+		0AC724F31ED9D25A00EA08DF /* RecommandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecommandViewController.swift; sourceTree = "<group>"; };
+		0AC724F51ED9D25A00EA08DF /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		0AC724FF1ED9D26900EA08DF /* CALayer+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CALayer+Extension.swift"; sourceTree = "<group>"; };
+		0AC725001ED9D26900EA08DF /* String+DHFinacial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+DHFinacial.swift"; sourceTree = "<group>"; };
+		0AC725011ED9D26900EA08DF /* UIColor+DHFinancial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+DHFinancial.swift"; sourceTree = "<group>"; };
+		0AC725021ED9D26900EA08DF /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		0AC725031ED9D26900EA08DF /* UIDevice+deviceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDevice+deviceModel.swift"; sourceTree = "<group>"; };
+		0AC725041ED9D26900EA08DF /* UIFont+DHFinacial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+DHFinacial.swift"; sourceTree = "<group>"; };
+		0AC7250C1ED9D27000EA08DF /* GJAnnounceCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GJAnnounceCarouselView.swift; sourceTree = "<group>"; };
+		0AC7250D1ED9D27000EA08DF /* GJImageCarouselView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GJImageCarouselView.swift; sourceTree = "<group>"; };
+		0AC725141ED9D2FF00EA08DF /* PrefixHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrefixHeader.swift; sourceTree = "<group>"; };
+		0AC725171ED9D53600EA08DF /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		C12137552792900ED90B1384 /* Pods-GJImageCarousel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GJImageCarousel.release.xcconfig"; path = "Pods/Target Support Files/Pods-GJImageCarousel/Pods-GJImageCarousel.release.xcconfig"; sourceTree = "<group>"; };
+		E4A61E20601AC1FE07E7A8B0 /* Pods_GJImageCarousel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GJImageCarousel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AC724B91ED9D23B00EA08DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1642713AE24434E9466A9642 /* Pods_GJImageCarousel.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC724CD1ED9D23B00EA08DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC724D81ED9D23B00EA08DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AC724B31ED9D23B00EA08DF = {
+			isa = PBXGroup;
+			children = (
+				0AC724BE1ED9D23B00EA08DF /* GJImageCarousel */,
+				0AC724D31ED9D23B00EA08DF /* GJImageCarouselTests */,
+				0AC724DE1ED9D23B00EA08DF /* GJImageCarouselUITests */,
+				0AC724BD1ED9D23B00EA08DF /* Products */,
+				C4F7D77E5A69A2F7122047FC /* Pods */,
+				C0F50E2B0C0A215F3912E789 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0AC724BD1ED9D23B00EA08DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AC724BC1ED9D23B00EA08DF /* GJImageCarousel.app */,
+				0AC724D01ED9D23B00EA08DF /* GJImageCarouselTests.xctest */,
+				0AC724DB1ED9D23B00EA08DF /* GJImageCarouselUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AC724BE1ED9D23B00EA08DF /* GJImageCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				0AC724BF1ED9D23B00EA08DF /* AppDelegate.swift */,
+				0AC7250B1ED9D27000EA08DF /* General */,
+				0AC724FE1ED9D26900EA08DF /* Extensions */,
+				0AC724ED1ED9D25A00EA08DF /* Classes */,
+				0AC725161ED9D53600EA08DF /* iconFont */,
+				0AC725141ED9D2FF00EA08DF /* PrefixHeader.swift */,
+				0AC724C61ED9D23B00EA08DF /* Assets.xcassets */,
+				0AC724C81ED9D23B00EA08DF /* LaunchScreen.storyboard */,
+				0AC724CB1ED9D23B00EA08DF /* Info.plist */,
+			);
+			path = GJImageCarousel;
+			sourceTree = "<group>";
+		};
+		0AC724D31ED9D23B00EA08DF /* GJImageCarouselTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC724D41ED9D23B00EA08DF /* GJImageCarouselTests.swift */,
+				0AC724D61ED9D23B00EA08DF /* Info.plist */,
+			);
+			path = GJImageCarouselTests;
+			sourceTree = "<group>";
+		};
+		0AC724DE1ED9D23B00EA08DF /* GJImageCarouselUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC724DF1ED9D23B00EA08DF /* GJImageCarouselUITests.swift */,
+				0AC724E11ED9D23B00EA08DF /* Info.plist */,
+			);
+			path = GJImageCarouselUITests;
+			sourceTree = "<group>";
+		};
+		0AC724ED1ED9D25A00EA08DF /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0AC724F01ED9D25A00EA08DF /* InvestViewController.swift */,
+				0AC724F11ED9D25A00EA08DF /* RecommandHeaderView.swift */,
+				0AC724F31ED9D25A00EA08DF /* RecommandViewController.swift */,
+				0AC724F51ED9D25A00EA08DF /* TabBarViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		0AC724FE1ED9D26900EA08DF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0AC724FF1ED9D26900EA08DF /* CALayer+Extension.swift */,
+				0AC725001ED9D26900EA08DF /* String+DHFinacial.swift */,
+				0AC725011ED9D26900EA08DF /* UIColor+DHFinancial.swift */,
+				0AC725021ED9D26900EA08DF /* UIColor+Extensions.swift */,
+				0AC725031ED9D26900EA08DF /* UIDevice+deviceModel.swift */,
+				0AC725041ED9D26900EA08DF /* UIFont+DHFinacial.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0AC7250B1ED9D27000EA08DF /* General */ = {
+			isa = PBXGroup;
+			children = (
+				0AC7250C1ED9D27000EA08DF /* GJAnnounceCarouselView.swift */,
+				0AC7250D1ED9D27000EA08DF /* GJImageCarouselView.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		0AC725161ED9D53600EA08DF /* iconFont */ = {
+			isa = PBXGroup;
+			children = (
+				0AC725171ED9D53600EA08DF /* iconfont.ttf */,
+			);
+			path = iconFont;
+			sourceTree = "<group>";
+		};
+		C0F50E2B0C0A215F3912E789 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4A61E20601AC1FE07E7A8B0 /* Pods_GJImageCarousel.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C4F7D77E5A69A2F7122047FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04394595E204B9974A42C0BA /* Pods-GJImageCarousel.debug.xcconfig */,
+				C12137552792900ED90B1384 /* Pods-GJImageCarousel.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AC724BB1ED9D23B00EA08DF /* GJImageCarousel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC724E41ED9D23B00EA08DF /* Build configuration list for PBXNativeTarget "GJImageCarousel" */;
+			buildPhases = (
+				6AB7F9D3D1FB8B87736D3B45 /* [CP] Check Pods Manifest.lock */,
+				0AC724B81ED9D23B00EA08DF /* Sources */,
+				0AC724B91ED9D23B00EA08DF /* Frameworks */,
+				0AC724BA1ED9D23B00EA08DF /* Resources */,
+				B6FCAEB9AF208ADDDD2BBB11 /* [CP] Embed Pods Frameworks */,
+				8ABB40C22B3FE1E5C7492430 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJImageCarousel;
+			productName = GJImageCarousel;
+			productReference = 0AC724BC1ED9D23B00EA08DF /* GJImageCarousel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AC724CF1ED9D23B00EA08DF /* GJImageCarouselTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC724E71ED9D23B00EA08DF /* Build configuration list for PBXNativeTarget "GJImageCarouselTests" */;
+			buildPhases = (
+				0AC724CC1ED9D23B00EA08DF /* Sources */,
+				0AC724CD1ED9D23B00EA08DF /* Frameworks */,
+				0AC724CE1ED9D23B00EA08DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC724D21ED9D23B00EA08DF /* PBXTargetDependency */,
+			);
+			name = GJImageCarouselTests;
+			productName = GJImageCarouselTests;
+			productReference = 0AC724D01ED9D23B00EA08DF /* GJImageCarouselTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AC724DA1ED9D23B00EA08DF /* GJImageCarouselUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AC724EA1ED9D23B00EA08DF /* Build configuration list for PBXNativeTarget "GJImageCarouselUITests" */;
+			buildPhases = (
+				0AC724D71ED9D23B00EA08DF /* Sources */,
+				0AC724D81ED9D23B00EA08DF /* Frameworks */,
+				0AC724D91ED9D23B00EA08DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AC724DD1ED9D23B00EA08DF /* PBXTargetDependency */,
+			);
+			name = GJImageCarouselUITests;
+			productName = GJImageCarouselUITests;
+			productReference = 0AC724DB1ED9D23B00EA08DF /* GJImageCarouselUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AC724B41ED9D23B00EA08DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Geselle_joy;
+				TargetAttributes = {
+					0AC724BB1ED9D23B00EA08DF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E7W46ZUERU;
+						ProvisioningStyle = Automatic;
+					};
+					0AC724CF1ED9D23B00EA08DF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E7W46ZUERU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0AC724BB1ED9D23B00EA08DF;
+					};
+					0AC724DA1ED9D23B00EA08DF = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = E7W46ZUERU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0AC724BB1ED9D23B00EA08DF;
+					};
+				};
+			};
+			buildConfigurationList = 0AC724B71ED9D23B00EA08DF /* Build configuration list for PBXProject "GJImageCarousel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AC724B31ED9D23B00EA08DF;
+			productRefGroup = 0AC724BD1ED9D23B00EA08DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AC724BB1ED9D23B00EA08DF /* GJImageCarousel */,
+				0AC724CF1ED9D23B00EA08DF /* GJImageCarouselTests */,
+				0AC724DA1ED9D23B00EA08DF /* GJImageCarouselUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AC724BA1ED9D23B00EA08DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC724CA1ED9D23B00EA08DF /* LaunchScreen.storyboard in Resources */,
+				0AC724C71ED9D23B00EA08DF /* Assets.xcassets in Resources */,
+				0AC725181ED9D53600EA08DF /* iconfont.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC724CE1ED9D23B00EA08DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC724D91ED9D23B00EA08DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AB7F9D3D1FB8B87736D3B45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8ABB40C22B3FE1E5C7492430 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GJImageCarousel/Pods-GJImageCarousel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6FCAEB9AF208ADDDD2BBB11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GJImageCarousel/Pods-GJImageCarousel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AC724B81ED9D23B00EA08DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC725151ED9D2FF00EA08DF /* PrefixHeader.swift in Sources */,
+				0AC725061ED9D26900EA08DF /* String+DHFinacial.swift in Sources */,
+				0AC724F91ED9D25A00EA08DF /* RecommandHeaderView.swift in Sources */,
+				0AC7250F1ED9D27000EA08DF /* GJImageCarouselView.swift in Sources */,
+				0AC7250A1ED9D26900EA08DF /* UIFont+DHFinacial.swift in Sources */,
+				0AC7250E1ED9D27000EA08DF /* GJAnnounceCarouselView.swift in Sources */,
+				0AC724C01ED9D23B00EA08DF /* AppDelegate.swift in Sources */,
+				0AC724FB1ED9D25A00EA08DF /* RecommandViewController.swift in Sources */,
+				0AC725071ED9D26900EA08DF /* UIColor+DHFinancial.swift in Sources */,
+				0AC725091ED9D26900EA08DF /* UIDevice+deviceModel.swift in Sources */,
+				0AC724FD1ED9D25A00EA08DF /* TabBarViewController.swift in Sources */,
+				0AC725081ED9D26900EA08DF /* UIColor+Extensions.swift in Sources */,
+				0AC725051ED9D26900EA08DF /* CALayer+Extension.swift in Sources */,
+				0AC724F81ED9D25A00EA08DF /* InvestViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC724CC1ED9D23B00EA08DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC724D51ED9D23B00EA08DF /* GJImageCarouselTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AC724D71ED9D23B00EA08DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AC724E01ED9D23B00EA08DF /* GJImageCarouselUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AC724D21ED9D23B00EA08DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC724BB1ED9D23B00EA08DF /* GJImageCarousel */;
+			targetProxy = 0AC724D11ED9D23B00EA08DF /* PBXContainerItemProxy */;
+		};
+		0AC724DD1ED9D23B00EA08DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AC724BB1ED9D23B00EA08DF /* GJImageCarousel */;
+			targetProxy = 0AC724DC1ED9D23B00EA08DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AC724C81ED9D23B00EA08DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AC724C91ED9D23B00EA08DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AC724E21ED9D23B00EA08DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AC724E31ED9D23B00EA08DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AC724E51ED9D23B00EA08DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04394595E204B9974A42C0BA /* Pods-GJImageCarousel.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7W46ZUERU;
+				INFOPLIST_FILE = GJImageCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-joy.GJImageCarousel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0AC724E61ED9D23B00EA08DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C12137552792900ED90B1384 /* Pods-GJImageCarousel.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E7W46ZUERU;
+				INFOPLIST_FILE = GJImageCarousel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-joy.GJImageCarousel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		0AC724E81ED9D23B00EA08DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E7W46ZUERU;
+				INFOPLIST_FILE = GJImageCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-joy.GJImageCarouselTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJImageCarousel.app/GJImageCarousel";
+			};
+			name = Debug;
+		};
+		0AC724E91ED9D23B00EA08DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = E7W46ZUERU;
+				INFOPLIST_FILE = GJImageCarouselTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-joy.GJImageCarouselTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJImageCarousel.app/GJImageCarousel";
+			};
+			name = Release;
+		};
+		0AC724EB1ED9D23B00EA08DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E7W46ZUERU;
+				INFOPLIST_FILE = GJImageCarouselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-joy.GJImageCarouselUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GJImageCarousel;
+			};
+			name = Debug;
+		};
+		0AC724EC1ED9D23B00EA08DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = E7W46ZUERU;
+				INFOPLIST_FILE = GJImageCarouselUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Geselle-joy.GJImageCarouselUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GJImageCarousel;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AC724B71ED9D23B00EA08DF /* Build configuration list for PBXProject "GJImageCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC724E21ED9D23B00EA08DF /* Debug */,
+				0AC724E31ED9D23B00EA08DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC724E41ED9D23B00EA08DF /* Build configuration list for PBXNativeTarget "GJImageCarousel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC724E51ED9D23B00EA08DF /* Debug */,
+				0AC724E61ED9D23B00EA08DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC724E71ED9D23B00EA08DF /* Build configuration list for PBXNativeTarget "GJImageCarouselTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC724E81ED9D23B00EA08DF /* Debug */,
+				0AC724E91ED9D23B00EA08DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AC724EA1ED9D23B00EA08DF /* Build configuration list for PBXNativeTarget "GJImageCarouselUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AC724EB1ED9D23B00EA08DF /* Debug */,
+				0AC724EC1ED9D23B00EA08DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AC724B41ED9D23B00EA08DF /* Project object */;
+}
