@@ -17,3 +17,6 @@ imageCarouselView.autoScrollInterval = 3
 ```
 
 > 如果你使用AutoLayout进行页面布局的话，需要在布局完成后，调用`layoutIfNeeded()`
+
+# 写在最后
+希望大家关注我的简书 [Geselle-Joy](http://www.jianshu.com/u/96ef11d38b00)
